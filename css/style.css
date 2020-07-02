@@ -154,9 +154,10 @@ img {
 
 .intro {
     min-height: 100vh;
-    background: url(../img/svg/Bg.svg)no-repeat center;
+    background: url(../img/svg/Bg1.svg)no-repeat center;
     background-size: cover;
     padding-top: 239px;
+
 
 }
 
@@ -167,6 +168,7 @@ img {
     line-height: 48.82px;
     color: #f7f3ea;
     text-align: center;
+
 }
 
 .intro__subtitle {
@@ -179,3 +181,94 @@ img {
     background: url(../img/svg/Shape_34.svg)no-repeat center;
     border: 0;
 }
+
+/* Services start */
+
+.services {
+    min-height: 100vh;
+    background: url(../img/svg/Bg2.svg)no-repeat center;
+    background-size: cover;
+    padding-top: 119px;
+
+}
+
+
+
+.services__title {
+    color: #ffffff;
+    font-family: "Titillium Web";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 29.91px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 48px;
+    padding-bottom: 30px;
+    background: url(../img/svg/Line.svg) no-repeat bottom center;
+    text-decoration: none;
+
+
+}
+
+.services__subtitle {
+    text-align: center;
+
+    color: #ffffff;
+    font-family: "Titillium Web";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.36px;
+    margin-bottom: 70px;
+}
+
+.services__cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 25px;
+    padding: 0 100px;
+}
+
+.services__card {
+    grid-column: span 1;
+    margin-bottom: 70px;
+}
+
+.services__card-title {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    /* Style for "Branding" */
+    width: 116px;
+    height: 18px;
+    color: #ffffff;
+    font-family: "Titillium Web";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    /* Text style for "B, randing" */
+    letter-spacing: 0.48px;
+}
+
+.services__card-pic {}
+
+.services__card-des {
+    /* Style for "Lorem ipsu" */
+
+    color: #ffffff;
+    font-family: "Titillium Web";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    /* Text style for "L, orem ip" */
+    letter-spacing: 0.32px;
+
+}
+
+.cervices__card-thumb {
+    display: block;
+}
+
+
+/* Services end */
